@@ -7,6 +7,9 @@
 	
 	Repository:   https://github.com/Ironstorm/bbd
 	
+	iOS version added by CopperCircle
+	Repository: https://github.com/CopperCircle/Camera.git
+
 	License: MIT
 #End
 

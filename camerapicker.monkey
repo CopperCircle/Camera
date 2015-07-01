@@ -7,6 +7,9 @@
 	
 	Repository:   https://github.com/Ironstorm/bbd
 	
+	iOS version added by CopperCircle
+	Repository: https://github.com/CopperCircle/Camera.git
+	
 	License:      MIT
 #End
 
@@ -15,6 +18,7 @@ Import brl.asyncevent
 #If TARGET="android" Or TARGET = "ios"
 Import "native/camerapicker.${TARGET}.${LANG}"
 #ANDROID_MANIFEST_MAIN+="<uses-permission android:name=~qandroid.permission.CAMERA~q />"
+#LIBS += "AssetsLibrary.framework"
 #Else
 #Error "CameraPicker not implemented for your target"
 #Endif
